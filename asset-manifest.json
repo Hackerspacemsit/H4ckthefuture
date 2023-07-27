@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/H4ckthefuture/static/css/main.db12f3e8.css",
+    "main.js": "/H4ckthefuture/static/js/main.3a1cbb42.js",
+    "static/media/ph-5.jpg": "/H4ckthefuture/static/media/ph-5.52c6f43eefa68bd1ab95.jpg",
+    "static/media/e5.jpg": "/H4ckthefuture/static/media/e5.21fe5a80c6b77bd814bf.jpg",
+    "static/media/ph-2.jpg": "/H4ckthefuture/static/media/ph-2.aeb0992b1171c41444e5.jpg",
+    "static/media/ph-4.jpg": "/H4ckthefuture/static/media/ph-4.4dfb89f4090e60e16a8f.jpg",
+    "static/media/ph-1.jpg": "/H4ckthefuture/static/media/ph-1.1b18621f95fcd325d8e8.jpg",
+    "static/media/ph-3.jpg": "/H4ckthefuture/static/media/ph-3.36d3f9fec4b0a20f6dfb.jpg",
+    "static/media/ph-12.jpeg": "/H4ckthefuture/static/media/ph-12.62019c668065478a9fec.jpeg",
+    "static/media/footer-bg.jpg": "/H4ckthefuture/static/media/footer-bg.53163ba3886441eba73c.jpg",
+    "static/media/e4.jpg": "/H4ckthefuture/static/media/e4.b10f4eb8777cbbc5e31e.jpg",
+    "static/media/about.png": "/H4ckthefuture/static/media/about.bc8cd4a747216ce123ce.png",
+    "static/media/img2.jpg": "/H4ckthefuture/static/media/img2.95da767cc18608103179.jpg",
+    "static/media/FAQs.svg": "/H4ckthefuture/static/media/FAQs.f2645e5829c2c8bccbd63b6e1cc40ca5.svg",
+    "static/media/e4.jpeg": "/H4ckthefuture/static/media/e4.1421217571d43dab5bce.jpeg",
+    "static/media/ph-11.jpg": "/H4ckthefuture/static/media/ph-11.b9cafe67d0a3f2fc5b86.jpg",
+    "static/media/img6.jpg": "/H4ckthefuture/static/media/img6.979dda0cdfd716605b21.jpg",
+    "static/media/ph-6.jpg": "/H4ckthefuture/static/media/ph-6.1142275f38eab9a523af.jpg",
+    "static/media/img3.jpg": "/H4ckthefuture/static/media/img3.55a63861f7462b383ed6.jpg",
+    "static/media/img4.jpg": "/H4ckthefuture/static/media/img4.4c1ecee074df99df925f.jpg",
+    "static/media/img1.jpg": "/H4ckthefuture/static/media/img1.1bfb6739bf9ac1a536c7.jpg",
+    "static/media/img5.jpg": "/H4ckthefuture/static/media/img5.3075a936d5ec7df1f6ee.jpg",
+    "static/media/2-removebg-preview.png": "/H4ckthefuture/static/media/2-removebg-preview.c811dc942c4228c14bd5.png",
+    "static/media/ph-9.jpg": "/H4ckthefuture/static/media/ph-9.cc3a3dbde03e150bc474.jpg",
+    "index.html": "/H4ckthefuture/index.html",
+    "main.db12f3e8.css.map": "/H4ckthefuture/static/css/main.db12f3e8.css.map",
+    "main.3a1cbb42.js.map": "/H4ckthefuture/static/js/main.3a1cbb42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db12f3e8.css",
+    "static/js/main.3a1cbb42.js"
+  ]
+}
