@@ -1,8 +1,8 @@
 :root {
   --background: #f2f5f7;
-  --text-primary: #2f4770;
+  --text-primary: #1e3153;
   --text-secondary: #647780;
-  --white: #f3d1d1;
+  --white: #fff;
 }
 
 .faq__container {
@@ -11,35 +11,38 @@
   margin-top: 50px;
   margin-bottom: 30px;
   border-radius: 10px;
-  filter: drop-shadow(0 0 10px
-          rgba(0, 0, 0, 0.5));
-          
-padding-bottom: 4rem;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+
+  padding-bottom: 4rem;
 }
 .Faq__main {
-	width: 100%;
-	height: auto;
-	display: grid;
-	place-items: center;
-	/* background-color: rgb(245, 245, 245); */
-	/* padding: 50px 0; */
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  /* background-color: rgb(245, 245, 245); */
+  /* padding: 50px 0; */
 }
 .Faq__main .Faq_head {
-	font-size: 29px;
-	color: rgba(91, 14, 216, 0.767);
-	position: relative;
-	margin-bottom: 100px;
-	font-weight: 500;
+  font-size: 29px;
+  color: rgba(91, 14, 216, 0.767);
+  position: relative;
+  margin-bottom: 100px;
+  font-weight: 500;
 }
 .Faq__main .Faq_head::after {
-	content: " ";
-	position: absolute;
-	width: 50%;
-	height: 3px;
-	left: 50%;
-	bottom: -5px;
-	transform: translateX(-50%);
-	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  background-image: linear-gradient(
+    to right,
+    rgba(91, 14, 216, 0.767),
+    rgba(238, 12, 200, 0.747)
+  );
 }
 
 code {
@@ -85,12 +88,13 @@ h1 {
 
 .accordion__faq-heading .active {
   color: var(--text-primary);
+  font-weight: 800;
 }
 
 .accordion__faq-heading h3 {
   color: var(--text-secondary);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -102,18 +106,13 @@ h1 {
 }
 /* ... Existing CSS code ... */
 
-.accordion__faq span{
-font-size: 24px;
-display: inline;
+.accordion__faq span {
+  font-size: 24px;
+  display: inline;
 
-margin-left: 10px;
-float: right;
-margin-top:  -35px;
-  
-
+  margin-left: 10px;
+  float: right;
+  margin-top: -35px;
 }
 
-
-
 /* ... Existing CSS code ... */
-
