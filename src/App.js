@@ -13,24 +13,23 @@ import Venue from "./components/Venue/Venue";
 import Gallery from "./components/Gallery/Gallery";
 import Sponser from "./components/sponsored/sponsored";
 
-
 function App() {
-    return (
-        <div className="App">
-            <Navbar/>
-            <Home/>
-            <About/>
-            <Theme/>
-            <Venue/>
-            <Scheduled/>
-            <Prize/>
-            <Judges/>
-            <Sponser/>
-            <Faq/>
-            <Gallery/>
-            <Footer/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Navbar />
+      <Home />
+      <About />
+      <Theme />
+      <Scheduled />
+      <Venue />
+      <Prize />
+      <Judges />
+      <Sponser />
+      <Faq />
+      <Gallery />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
