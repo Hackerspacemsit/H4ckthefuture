@@ -1,10 +1,13 @@
 :root {
-  --background: #f2f5f7;
+  --background: #f1f0ef;
   --text-primary: #1e3153;
-  --text-secondary: #647780;
-  --white: #fff;
+  --text-secondary: #000000;
+  --white: #e8e8e8;
 }
-
+.faqbox{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .faq__container {
   max-width: 1140px;
   margin: auto;
@@ -12,7 +15,6 @@
   margin-bottom: 30px;
   border-radius: 10px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-
   padding-bottom: 4rem;
 }
 .Faq__main {

@@ -21,6 +21,22 @@ const dataCollection = [
     question: "What is the last date of registration?",
     answer: "The last date of registration is 20th of September",
   },
+  {
+    question: "Why should I participate?",
+    answer: "People participate in hackathons for lots of reason: the challenge, the creative outlet, the community collaboration, the networking, the swag and maybe Prizes!",
+  },
+  {
+    question: "What is the maximum team size?",
+    answer: "We encourage you to make a team of minimum 2 and maximum 3 members. If you are a Solo Hacker and do not have a team, you can still register and we will help you find a team on our Discord Server.",
+  },
+  {
+    question: "Who can participate?",
+    answer: "Students in college, schools can apply. If you can innovate or just want to have a fun learning weekend, you are most welcome.",
+  }, {
+    question: "I have more questions , how can i reach out?",
+    answer: "You can reach out to us on our Discord Server (https://discord.gg/b5a2az4r6F) or email us at hackerspacemsit2023@gmail.com!",
+  },
+  
 ];
 
 function Accordion() {
@@ -37,6 +53,7 @@ function Accordion() {
 
   return (
     <React.Fragment>
+    <div className="faqbox">  
       <div className="faq__container">
         <div className="about-head-section">
           <h1 className="heading-tag-line">FAQs</h1>
@@ -69,6 +86,7 @@ function Accordion() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </React.Fragment>
   );
