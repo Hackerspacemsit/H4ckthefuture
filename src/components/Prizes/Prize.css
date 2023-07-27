@@ -9,6 +9,8 @@
 
 #Prize{
     padding-bottom: 4rem;
+    margin-left: 25px;
+    margin-right:25px;
 }
 .dd_heading {
     text-align: center;
@@ -35,6 +37,7 @@
     .page-content {
         grid-template-columns: repeat(3, 1fr);
     }
+    
 }
 
 .d_card {
@@ -241,17 +244,19 @@
 }
 
 .d_card:nth-child(1):before {
-    background-image: url(https://images.unsplash.com/photo-1581017601156-b4e8e53df291?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
+    background-image: url(https://images.unsplash.com/photo-1581431564030-e27d0a9201ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
 }
 
 .d_card:nth-child(2):before {
-    background-image: url(https://images.unsplash.com/photo-1581014023865-4209099f2b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
+    background-image: url(https://img.freepik.com/premium-vector/realistic-golden-medal-label-success-winner_137876-412.jpg);
 }
 
 .d_card:nth-child(3):before {
-    background-image: url(https://images.unsplash.com/photo-1580842579866-b985411b5bd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+   
+    background-image: url(https://images.unsplash.com/photo-1625643268477-838321f445bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
 }
 
+/* 
 .d_card:nth-child(4):before {
     background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
 }
@@ -270,7 +275,7 @@
 
 .d_card:nth-child(8):before {
     background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-}
+} */
 
 .text-center {
     font-size: 4.2rem;

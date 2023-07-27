@@ -4,16 +4,16 @@ import "./Prize.css"
 const Prize = () => {
     const cardData = [
         {
-            heading: 'Welcome To C++',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            heading: '1ST RUNNER UP',
+            content: 'HACK THE FUTURE FIRST SEASON 1ST RUNNER UP - $15,000',
         },
         {
-            heading: 'React World',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            heading: 'WINNER',
+            content: 'HACK THE FUTURE FIRST SEASON WINNER - $25,000',
         },
         {
-            heading: 'Hello World',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            heading: '2ND RUNNER UP',
+            content: 'HACK THE FUTURE FIRST SEASON 1ST RUNNER UP - $5,000',
         },
     ];
 
@@ -29,7 +29,8 @@ const Prize = () => {
                         <div className="prize-content">
                             <h2 className="heading">{card.heading}</h2>
                             <p className="data-content">{card.content}</p>
-                            <button class="prize-button">Click Here</button>
+                            <br/><br/><br/>
+                            {/* <button class="prize-button">Click Here</button> */}
                         </div>
                     </div>
                 ))}

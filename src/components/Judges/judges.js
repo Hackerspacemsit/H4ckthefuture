@@ -1,3 +1,8 @@
+// This file is used as Mentors Sections 
+
+
+
+
 import React, { useState, useEffect } from "react";
 import "../Home/home.css"; // Import the CSS file for styling
 import ReactCardCarousel from "react-card-carousel";
@@ -82,13 +87,13 @@ const Judges = () => {
   return (
     <div id="Judges">
       <div className="about-head-section">
-        <h1 className="heading-tag-line">Judges</h1>
+        <h1 className="heading-tag-line">Mentors</h1>
         <hr className="heading-underline" />
       </div>
       <div style={CONTAINER_STYLE}>
         <ReactCardCarousel
           autoplay={true}
-          autoplay_speed={2500}
+          autoplay_speed={3000}
           spread={"wide"}
           disable_box_shadow={true}
         >
