@@ -58,12 +58,38 @@
     border-radius: 15px;
 }
 
+
+.d_card[value="1st"]{
+    margin-top: 65px;
+    height: 85%;
+}
+
+
+.d_card[value="2nd"]{
+   margin-top: 130px;
+   height: 70%;
+}
+
 @media (min-width: 600px) {
     .d_card {
         height: 450px;
     }
+    
+    
 }
 
+@media (max-width:480px) {
+    .d_card[value="1st"]{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+     }
+     .d_card[value="2nd"]{
+         margin: 0;
+        height: 100%;
+        width: 100%;
+     }
+}
 .d_card:before {
     content: "";
     position: absolute;
@@ -336,6 +362,6 @@
     position: absolute;
     width: 160px !important;
     height: 4px;
-    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+    background: linear-gradient(105deg, hsl(0, 0%, 100%), #ffdd00);
     bottom: 0;
 }
