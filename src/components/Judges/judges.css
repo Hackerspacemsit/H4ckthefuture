@@ -1,5 +1,5 @@
 :root {
-  --main-col: #c8c;
+  --main-col: rgb(255, 221, 0);
   --sec-col: lighten(#303f9f, 20%);
   --back-col: #c5cae9;
 }
@@ -8,7 +8,7 @@
 
 .card-one {
   position: relative;
-  width: 300px;
+  width: 400px;
   background: #fff;
   box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4);
 }
@@ -96,6 +96,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+ 
 }
 
 .card-one .contacts a {
@@ -108,7 +109,7 @@
 }
 
 .card-one .contacts a:hover {
-  color: #333;
+  color: #0086fb;
 }
 
 .card-one .contacts a .fa {
@@ -147,6 +148,9 @@
     width: 250px;
     margin: 0 150px;
   }
+  .card-one{
+    width: 300px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -154,6 +158,9 @@
   .judge-card {
     width: 280px;
     margin: 0 150px;
+  }
+  .card-one{
+    width: 300px;
   }
 }
 
@@ -163,6 +170,9 @@
     width: 320px;
     margin: 0 100px;
   }
+  .card-one{
+    width: 300px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -171,6 +181,9 @@
     width: 350px;
     margin: 0 100px;
     
+  }
+  .card-one{
+    width: 300px;
   }
 }
 

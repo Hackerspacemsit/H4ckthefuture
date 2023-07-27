@@ -6,6 +6,7 @@ body {
   scroll-behavior: smooth;
   background: #060404;
   overflow-x: hidden;
+  -webkit-user-drag: none;
 }
 
 .heading-underline {
