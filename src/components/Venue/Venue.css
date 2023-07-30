@@ -4,6 +4,10 @@
   padding-bottom: 4rem;
 }
 
+.venue-container{
+  display: flex;
+}
+
 .venue-subsection {
   position: relative;
   display: flex;
@@ -18,7 +22,7 @@
 .venue-subheading-left {
   flex: 1;
   color: #fff;
-  padding-top: 2rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -36,21 +40,25 @@
 }
 .venue-subheading-right {
   flex: 0.5;
-  padding-left: 20px;
+  padding-left: 4rem;
   padding-top: 2rem;
 }
 
 .venue-subheading-right iframe {
-  width: 97vw;
+  width: 50vw;
   height: 350px;
   border: 0;
   border-radius: 10px;
+
 }
 .venue-location a i {
   font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {
+  .venue-container{
+    flex-direction: column;
+  }
   .venue-subsection {
     align-items: center;
     flex-direction: column;
@@ -59,11 +67,10 @@
     text-align: center;
     width: 100%;
   }
-
   .venue-subheading-right iframe {
-    margin: 20px;
+    margin: auto;
     width: 300px;
-    height: auto;
+    height:auto;
   }
 
   .venue-date {
@@ -71,6 +78,9 @@
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
+  .venue-subheading-right iframe {
+    margin: auto;
+  }
   .venue-subsection {
     flex-direction: column;
   }
