@@ -18,7 +18,7 @@ const Home = () => {
 
     function calculateTimeLeft() {
         const currentTime = new Date();
-        const targetDate = new Date('2023-07-27');
+        const targetDate = new Date('2023-09-01');
         targetDate.setHours(23, 59, 59); // Set the target time to 11:59 pm
 
         const timeDiff = targetDate.getTime() - currentTime.getTime();
@@ -75,7 +75,7 @@ const Home = () => {
                     </div>
                     <div className="button">
                         <button className="btn btn-2 hover-slide-right register-btn">
-                            <span>Register Now  <i className="register fa-solid fa-arrow-right"></i></span>
+                            <span>Register Now <i className="register fa-solid fa-arrow-right"></i></span>
                         </button>
                         <button className="btn btn-2 hover-slide-right discord">
                             <a href="https://discord.gg/q9vHfn9M">Join Here <i className="fa-brands fa-discord"></i></a>
