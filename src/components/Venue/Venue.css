@@ -67,6 +67,10 @@
     text-align: center;
     width: 100%;
   }
+  .venue-subheading-right{
+    display: flex;
+    padding-left: 0;
+  }
   .venue-subheading-right iframe {
     margin: auto;
     width: 300px;
